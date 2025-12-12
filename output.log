@@ -1,0 +1,793 @@
+nohup: ignoring input
+INFO:     Started server process [52317]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+[DEBUG] ========== ОТПРАВКА В TELEGRAM ==========
+[DEBUG] TELEGRAM_TOKEN загружен: True
+[DEBUG] TELEGRAM_CHAT_ID: -5010045436 (тип: <class 'str'>)
+[DEBUG] URL: https://149.154.167.220/bot8301229824:AAGHTbRWc3M1wGrCCRgMgQtfY6k40PxnXSs/sendMessage
+[DEBUG] Длина текста отчёта: 52 символов
+[DEBUG] Первые 200 символов текста: 📊 Отчёт за 2025-12-09
+
+Перемещений карточек не было.
+[TELEGRAM] HTTP статус: 200
+[TELEGRAM] Ответ API: {"ok":true,"result":{"message_id":7,"from":{"id":8301229824,"is_bot":true,"first_name":"kaiten_gpzu_bot","username":"kaiten_gpzu_bot"},"chat":{"id":-5010045436,"title":"Vera & \u0415\u0432\u0430 \u041b\u0435\u0432\u0447\u0435\u043d\u043a\u043e, \u0421\u0430\u0432\u0435\u043b\u0438\u0439","type":"group","all_members_are_administrators":true,"accepted_gift_types":{"unlimited_gifts":false,"limited_gifts":false,"unique_gifts":false,"premium_subscription":false}},"date":1765383081,"text":"\ud83d\udcc
+[TELEGRAM] ✅ Отчёт успешно отправлен!
+INFO:     127.0.0.1:53302 - "GET /daily_report HTTP/1.1" 200 OK
+[MOVE] 2025-12-10 | Тестовый пользователь: Подписание (ID:5474976) → Финализация (добавление РСО,регистрация) (ID:5474975)
+INFO:     127.0.0.1:36654 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-10 | isogd.2019: Проверка начальника отдела (ID:5474974) → Подготовка ГПЗУ (ID:5474973)
+INFO:     51.250.53.76:59289 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.22:24970 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.28:8718 - "POST /gradplan_process HTTP/1.1" 200 OK
+[DEBUG] ========== ОТПРАВКА В TELEGRAM ==========
+[DEBUG] TELEGRAM_TOKEN загружен: True
+[DEBUG] TELEGRAM_CHAT_ID: -5010045436 (тип: <class 'str'>)
+[DEBUG] URL: https://149.154.167.220/bot8301229824:AAGHTbRWc3M1wGrCCRgMgQtfY6k40PxnXSs/sendMessage
+[DEBUG] Длина текста отчёта: 52 символов
+[DEBUG] Первые 200 символов текста: 📊 Отчёт за 2025-12-09
+
+Перемещений карточек не было.
+[TELEGRAM] HTTP статус: 200
+[TELEGRAM] Ответ API: {"ok":true,"result":{"message_id":8,"from":{"id":8301229824,"is_bot":true,"first_name":"kaiten_gpzu_bot","username":"kaiten_gpzu_bot"},"chat":{"id":-5010045436,"title":"Vera & \u0415\u0432\u0430 \u041b\u0435\u0432\u0447\u0435\u043d\u043a\u043e, \u0421\u0430\u0432\u0435\u043b\u0438\u0439","type":"group","all_members_are_administrators":true,"accepted_gift_types":{"unlimited_gifts":false,"limited_gifts":false,"unique_gifts":false,"premium_subscription":false}},"date":1765383703,"text":"\ud83d\udcc
+[TELEGRAM] ✅ Отчёт успешно отправлен!
+INFO:     127.0.0.1:43582 - "GET /daily_report HTTP/1.1" 200 OK
+[MOVE] 2025-12-10 | isogd.2019: Подготовка ГПЗУ (ID:5474973) → Проверка начальника отдела (ID:5474974)
+INFO:     51.250.53.54:15985 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:12468 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.118:65322 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-10 | isogd.2019: Проверка начальника отдела (ID:5474974) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     51.250.53.54:15213 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.118:58789 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:59552 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-10 | isogd.2019: WIP ОЖИДАНИЕ (ID:5485743) → Финализация (добавление РСО,регистрация) (ID:5474975)
+INFO:     178.154.236.143:42448 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.70:60957 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-10 | isogd.2019: Колонка 5474965 (ID:5474965) → Колонка 5474969 (ID:5474969)
+INFO:     84.201.183.70:58525 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-10 | isogd.2019: Колонка 5474969 (ID:5474969) → Колонка 5474965 (ID:5474965)
+INFO:     185.206.167.208:63265 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:60155 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:51021 - "POST /gradplan_process HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     176.65.149.35:48900 - "GET /index.htm HTTP/1.1" 404 Not Found
+INFO:     176.65.149.35:48904 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     123.58.210.106:58068 - "GET / HTTP/1.1" 404 Not Found
+INFO:     123.58.210.106:58074 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     123.58.210.106:58076 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     123.58.210.106:58092 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     123.58.210.106:58096 - "GET /sse HTTP/1.1" 404 Not Found
+INFO:     123.58.210.106:58100 - "GET /mcp HTTP/1.1" 404 Not Found
+INFO:     123.58.210.106:58116 - "GET /mcp-sse HTTP/1.1" 404 Not Found
+INFO:     123.58.210.106:56660 - "GET /get_server_info HTTP/1.1" 404 Not Found
+INFO:     193.34.213.150:52006 - "POST / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+[MOVE] 2025-12-11 | Кристина Ляпина: Финализация (добавление РСО,регистрация) (ID:5474975) → Подписание (ID:5474976)
+INFO:     84.201.183.86:4506 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Кристина Ляпина: Финализация (добавление РСО,регистрация) (ID:5474975) → Подписание (ID:5474976)
+INFO:     185.206.167.192:55575 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:59284 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.176:13439 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     20.118.217.143:55834 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+[MOVE] 2025-12-11 | Елена Кроваткина: Колонка 5474963 (ID:5474963) → Колонка 5474951 (ID:5474951)
+INFO:     185.206.167.192:51124 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Колонка 5474951 (ID:5474951) → Колонка 5474965 (ID:5474965)
+INFO:     84.201.183.108:29199 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Колонка 5474965 (ID:5474965) → Колонка 5474969 (ID:5474969)
+INFO:     51.250.53.76:59458 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Колонка 5474965 (ID:5474965) → Колонка 5474969 (ID:5474969)
+INFO:     84.201.183.108:32185 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Колонка 5474965 (ID:5474965) → Колонка 5474969 (ID:5474969)
+INFO:     178.154.236.175:65375 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Колонка 5474965 (ID:5474965) → Колонка 5474969 (ID:5474969)
+INFO:     51.250.53.92:49846 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Колонка 5474965 (ID:5474965) → Колонка 5474969 (ID:5474969)
+INFO:     185.206.167.176:9991 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Колонка 5474965 (ID:5474965) → Колонка 5474969 (ID:5474969)
+INFO:     185.206.167.192:55991 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Колонка 5474963 (ID:5474963) → Колонка 5474969 (ID:5474969)
+INFO:     51.250.53.86:7821 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Колонка 5474963 (ID:5474963) → Колонка 5474969 (ID:5474969)
+INFO:     185.206.167.144:8171 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Колонка 5474963 (ID:5474963) → Колонка 5474969 (ID:5474969)
+INFO:     84.201.183.118:60922 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     198.235.24.107:61204 - "GET / HTTP/1.1" 404 Not Found
+[MOVE] 2025-12-11 | Елена Кроваткина: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     84.201.183.118:64886 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.86:7504 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     185.206.167.192:55830 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:54913 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     185.206.167.192:55830 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:54913 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     178.154.236.159:40249 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.54:15859 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     84.201.183.70:64789 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:62509 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     178.154.236.159:40249 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.54:15859 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     178.154.236.159:40249 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.54:15859 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     84.201.183.118:64883 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.118:60653 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     84.201.183.118:64883 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.118:60653 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     84.201.183.118:64883 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.118:60653 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:58306 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     185.206.167.144:2317 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:65232 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.22:23656 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     84.201.183.102:14999 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:51077 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.108:26585 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     51.250.53.60:58424 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:14999 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:51077 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.108:26585 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:51077 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:58424 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:14999 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:58424 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:14999 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:12016 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:50682 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:58424 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:14999 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     84.201.183.124:12016 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:50682 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:14999 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     51.250.53.60:58424 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:12016 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:50682 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     51.250.53.60:58424 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:12016 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:50682 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     51.250.53.60:59573 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:58424 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:12016 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     185.206.167.160:50682 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:59573 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:58424 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     84.201.183.124:12016 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:50682 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:59573 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     51.250.53.60:58424 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:50682 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:12016 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     185.206.167.160:50682 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:12016 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:59573 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     51.250.53.60:58424 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:50682 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:12016 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     51.250.53.60:58424 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:50682 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:12016 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Ожидание ТОПО (ID:5524513) → Запросы РСО (ID:5474972)
+INFO:     51.250.53.60:58542 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:58424 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:50682 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23090 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61445 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: WIP ОЖИДАНИЕ (ID:5485743) → Подготовка ГПЗУ (ID:5474973)
+INFO:     185.206.167.128:18903 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:22937 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.92:51568 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:63551 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.22:19416 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Подготовка ГПЗУ (ID:5474973) → Проверка начальника отдела (ID:5474974)
+INFO:     185.206.167.128:18903 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:22937 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:63551 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:18903 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.92:51568 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:22937 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.22:19416 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:22937 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:63551 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:18903 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:9113 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:57690 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.92:51568 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.22:19416 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Анастасия Бейгель: WIP ОЖИДАНИЕ (ID:5485743) → Финализация (добавление РСО,регистрация) (ID:5474975)
+INFO:     84.201.183.86:5448 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Анастасия Бейгель: Подготовка ГПЗУ (ID:5474973) → Проверка начальника отдела (ID:5474974)
+INFO:     178.154.237.28:5152 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:6422 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.176:11956 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.79:62675 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:6422 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.54:10986 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.28:5152 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.176:11956 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.79:62675 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.86:4112 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.54:10986 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:6422 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.176:11956 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.79:62675 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Анастасия Бейгель: Финализация (добавление РСО,регистрация) (ID:5474975) → Проверка начальника отдела (ID:5474974)
+INFO:     51.250.53.54:14810 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:21151 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61339 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:62113 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:21151 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.54:14810 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61339 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.86:8347 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:21151 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:59347 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:62113 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:61339 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:21151 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.86:8347 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:5005 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:5005 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.95:51749 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:15781 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:13573 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:65131 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.95:51749 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:15781 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:13573 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:65131 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:60574 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Анастасия Бейгель: Проверка начальника отдела (ID:5474974) → Финализация (добавление РСО,регистрация) (ID:5474975)
+INFO:     84.201.183.86:3729 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:59619 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:59176 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:21747 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:62047 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:10332 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:59619 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:62047 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:10332 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.76:10353 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.176:15495 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:62159 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Анастасия Бейгель: Проверка начальника отдела (ID:5474974) → Финализация (добавление РСО,регистрация) (ID:5474975)
+INFO:     178.154.237.28:5526 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.108:33076 - "POST /gradplan_process HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+INFO:     185.206.167.128:23089 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.95:57064 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:61457 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.92:56181 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.86:3311 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:65341 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:7896 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:17426 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:17426 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:64153 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:4066 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:17426 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:64153 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Стрекалина Наталья: Входящая проверка (ID:5474955) → ЕГРН + ТОПО + права (ID:5474956)
+INFO:     185.206.167.128:17426 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:64153 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.28:1835 - "POST /gradplan_process HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     209.38.20.193:60934 - "GET / HTTP/1.1" 404 Not Found
+INFO:     209.38.20.193:60942 - "GET /login HTTP/1.1" 404 Not Found
+INFO:     185.206.167.208:63946 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.28:7106 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:18461 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.63:23325 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:56267 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.28:1370 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.54:11441 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:52280 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.127:60368 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:52280 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.127:60368 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.70:60174 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.92:18535 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:52280 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Стрекалина Наталья: Входящая проверка (ID:5474955) → ЕГРН + ТОПО + права (ID:5474956)
+INFO:     185.206.167.176:12367 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.95:52943 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.92:52762 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:61079 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:24597 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:53855 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:11940 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.79:61784 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.92:56228 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.118:57498 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.6:31503 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:57207 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.127:61814 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.92:52977 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.118:57498 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.176:11584 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Стрекалина Наталья: Входящая проверка (ID:5474955) → ЕГРН + ТОПО + права (ID:5474956)
+INFO:     51.250.53.60:62074 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:52593 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:12110 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:51402 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:19703 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.191:43218 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:15274 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.92:21485 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:60706 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:49806 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:19992 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.143:43682 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:19992 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.143:43682 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.86:4196 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:15129 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Стрекалина Наталья: Входящая проверка (ID:5474955) → ЕГРН + ТОПО + права (ID:5474956)
+INFO:     178.154.236.47:63523 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.70:63838 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.92:17996 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:17598 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.127:59789 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:62312 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.28:4833 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.86:4026 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.86:3818 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.176:14540 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:59793 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:15565 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:59793 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.79:60160 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.92:52913 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:54353 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:59879 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:64752 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Стрекалина Наталья: Входящая проверка (ID:5474955) → ЕГРН + ТОПО + права (ID:5474956)
+INFO:     84.201.183.118:61015 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.92:52865 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:16842 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:54353 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:59879 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:64752 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.118:61015 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:54353 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:59879 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:64752 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.92:54562 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.92:20537 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Анастасия Бейгель: Проверка начальника отдела (ID:5474974) → Финализация (добавление РСО,регистрация) (ID:5474975)
+INFO:     84.201.183.118:58935 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:16901 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23808 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:1525 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.127:65485 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:17039 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:13482 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:19446 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.95:55477 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:14496 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:22167 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.95:55477 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:14496 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.176:14080 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.118:58144 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Стрекалина Наталья: Входящая проверка (ID:5474955) → ЕГРН + ТОПО + права (ID:5474956)
+INFO:     178.154.237.28:4484 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:51161 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.6:26500 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:24499 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:16062 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.127:62360 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:65519 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:11591 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:3576 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.108:33046 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.28:5987 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:61072 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:33855 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:13663 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:61072 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:33855 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:37266 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:14996 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:56673 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:53571 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.143:49065 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.54:11952 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:62468 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:56826 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.160:50274 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.143:49065 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:62468 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Анастасия Бейгель: Проверка начальника отдела (ID:5474974) → Финализация (добавление РСО,регистрация) (ID:5474975)
+INFO:     178.154.237.6:30501 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:11721 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Стрекалина Наталья: Входящая проверка (ID:5474955) → ЕГРН + ТОПО + права (ID:5474956)
+INFO:     185.206.167.128:21411 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.176:16850 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:64489 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:52101 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:2047 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.70:60793 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:60108 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.175:60151 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.108:30760 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:39844 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:39844 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.86:5443 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.54:16715 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:39844 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.86:5443 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Стрекалина Наталья: Входящая проверка (ID:5474955) → ЕГРН + ТОПО + права (ID:5474956)
+INFO:     84.201.183.124:9332 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:63293 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:8107 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:62115 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Стрекалина Наталья: ЕГРН + ТОПО + права (ID:5474956) → Запросы РСО (ID:5474972)
+INFO:     185.206.167.176:13281 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:60606 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.63:19351 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:58113 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.54:15758 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Стрекалина Наталья: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     178.154.237.28:7545 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:22376 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:63320 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Стрекалина Наталья: WIP ОЖИДАНИЕ (ID:5485743) → Подготовка ГПЗУ (ID:5474973)
+INFO:     84.201.183.124:12420 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:40485 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.92:54080 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.176:13663 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:9454 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Стрекалина Наталья: Подготовка ГПЗУ (ID:5474973) → ЕГРН + ТОПО + права (ID:5474956)
+INFO:     178.154.236.111:64655 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.128:23768 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.70:64141 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.28:6567 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:7160 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:13002 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:53089 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:40556 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.6:26116 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.86:5326 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:60688 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.28:3652 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.86:5326 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:6649 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:58745 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.22:24660 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Стрекалина Наталья: Входящая проверка (ID:5474955) → ЕГРН + ТОПО + права (ID:5474956)
+INFO:     185.206.167.144:2331 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:53277 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:37411 - "POST /gradplan_process HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     167.99.217.70:54550 - "GET / HTTP/1.1" 404 Not Found
+INFO:     167.99.217.70:54564 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+[MOVE] 2025-12-11 | Елена Кроваткина: Подготовка ГПЗУ (ID:5474973) → Проверка начальника отдела (ID:5474974)
+INFO:     185.206.167.144:3930 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:3930 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:61127 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.95:52063 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:61127 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.92:20214 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:3930 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:4869 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.12:9386 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.208:61127 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.95:52063 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:4869 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:11388 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.86:6845 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     3.137.73.221:51718 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+[MOVE] 2025-12-11 | Евгения Маркушева: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     51.250.53.92:53565 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:60856 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.28:8946 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     185.206.167.176:10183 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:55854 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:11683 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Евгения Маркушева: Запросы РСО (ID:5474972) → WIP ОЖИДАНИЕ (ID:5485743)
+INFO:     185.206.167.176:10183 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:55854 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.28:8740 - "POST /gradplan_process HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+[DEBUG] ========== ОТПРАВКА В TELEGRAM ==========
+[DEBUG] TELEGRAM_TOKEN загружен: True
+[DEBUG] TELEGRAM_CHAT_ID: -5010045436 (тип: <class 'str'>)
+[DEBUG] URL: https://149.154.167.220/bot8301229824:AAGHTbRWc3M1wGrCCRgMgQtfY6k40PxnXSs/sendMessage
+[DEBUG] Длина текста отчёта: 534 символов
+[DEBUG] Первые 200 символов текста: 📊 Отчёт за 2025-12-10
+
+👤 isogd.2019: 6 перемещений
+  • 1 перемещение: Проверка начальника отдела → Подготовка ГПЗУ
+  • 1 перемещение: Подготовка ГПЗУ → Проверка начальника отдела
+  • 1 перемещение: Пр
+[TELEGRAM] HTTP статус: 200
+[TELEGRAM] Ответ API: {"ok":true,"result":{"message_id":10,"from":{"id":8301229824,"is_bot":true,"first_name":"kaiten_gpzu_bot","username":"kaiten_gpzu_bot"},"chat":{"id":-5010045436,"title":"Vera & \u0415\u0432\u0430 \u041b\u0435\u0432\u0447\u0435\u043d\u043a\u043e, \u0421\u0430\u0432\u0435\u043b\u0438\u0439","type":"group","all_members_are_administrators":true,"accepted_gift_types":{"unlimited_gifts":false,"limited_gifts":false,"unique_gifts":false,"premium_subscription":false}},"date":1765443601,"text":"\ud83d\udc
+[TELEGRAM] ✅ Отчёт успешно отправлен!
+INFO:     127.0.0.1:55994 - "GET /daily_report HTTP/1.1" 200 OK
+INFO:     185.226.197.69:50941 - "GET / HTTP/1.1" 404 Not Found
+INFO:     185.226.197.70:56085 - "GET /Web/Auth HTTP/1.1" 404 Not Found
+INFO:     185.226.197.67:34013 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     185.226.197.68:55587 - "GET /console HTTP/1.1" 404 Not Found
+INFO:     185.226.197.67:39423 - "GET /helpdesk/WebObjects/Helpdesk.woa HTTP/1.1" 404 Not Found
+INFO:     185.226.197.67:39241 - "GET / HTTP/1.1" 404 Not Found
+INFO:     185.226.197.69:45883 - "GET /admin/ HTTP/1.1" 404 Not Found
+INFO:     185.226.197.67:52881 - "GET /api/session/properties HTTP/1.1" 404 Not Found
+INFO:     185.226.197.70:50377 - "GET /owncloud/status.php HTTP/1.1" 404 Not Found
+INFO:     185.226.197.69:53835 - "GET /status.php HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+[MOVE] 2025-12-11 | Елена Кроваткина: WIP ОЖИДАНИЕ (ID:5485743) → Подготовка ГПЗУ (ID:5474973)
+INFO:     185.206.167.144:5231 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:13191 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:51533 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:64124 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.95:49726 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-11 | Елена Кроваткина: Подготовка ГПЗУ (ID:5474973) → Проверка начальника отдела (ID:5474974)
+INFO:     84.201.183.124:13191 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.95:49726 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:5231 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:51533 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:13191 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:60894 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.95:49726 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:5231 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:51533 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.192:51533 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:64124 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:60894 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.124:13191 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     185.206.167.144:5231 - "POST /gradplan_process HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     138.197.167.75:42520 - "GET /.env HTTP/1.1" 404 Not Found
+INFO:     138.197.167.75:42522 - "GET /.git/config HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     162.142.125.47:14948 - "GET / HTTP/1.1" 404 Not Found
+INFO:     118.194.251.101:55998 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     45.194.70.249:50572 - "GET / HTTP/1.1" 404 Not Found
+INFO:     45.194.70.249:50846 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     45.194.70.249:51086 - "GET /sitemap.xml HTTP/1.1" 404 Not Found
+INFO:     45.194.70.249:51084 - "GET /robots.txt HTTP/1.1" 404 Not Found
+INFO:     35.233.94.99:56428 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+INFO:     164.92.159.100:37768 - "GET / HTTP/1.1" 404 Not Found
+INFO:     147.185.132.180:58314 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+[MOVE] 2025-12-12 | Елена Кроваткина: WIP ОЖИДАНИЕ (ID:5485743) → Подготовка ГПЗУ (ID:5474973)
+INFO:     51.250.53.59:51068 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.191:44216 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.37:26353 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:36563 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:57480 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Елена Кроваткина: Подготовка ГПЗУ (ID:5474973) → Проверка начальника отдела (ID:5474974)
+INFO:     84.201.183.86:6324 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.191:44216 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.37:26353 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.59:51068 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:36563 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:57480 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.191:44216 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.86:6324 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.37:26353 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:57480 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.124.5:47916 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.124.21:46113 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.5:20843 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.59:51068 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Елена Кроваткина: WIP ОЖИДАНИЕ (ID:5485743) → Подготовка ГПЗУ (ID:5474973)
+INFO:     51.250.124.21:42482 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.63:20395 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:59270 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.86:7338 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.82:60545 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Елена Кроваткина: Подготовка ГПЗУ (ID:5474973) → Проверка начальника отдела (ID:5474974)
+INFO:     178.154.236.111:62850 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.124.21:42482 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.63:20395 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:59270 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.124.21:42482 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:62850 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.86:7338 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:59270 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.82:60545 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.124.21:42482 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.63:20395 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:62850 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.86:7338 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:59270 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.53:44237 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.237.11:6768 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:12796 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.53:44237 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.63:18752 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.127:61109 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.95:56838 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:12796 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.53:44237 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.127:61109 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.95:56838 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Анастасия Бейгель: Проверка начальника отдела (ID:5474974) → Финализация (добавление РСО,регистрация) (ID:5474975)
+INFO:     178.154.236.191:47908 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.124.37:30442 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:60496 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:40253 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.63:18665 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.63:18665 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:61012 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:13429 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.191:46243 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.124.37:32487 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:59652 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:59652 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Анастасия Бейгель: Проверка начальника отдела (ID:5474974) → Финализация (добавление РСО,регистрация) (ID:5474975)
+INFO:     51.250.124.5:41357 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.191:44802 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Елена Кроваткина: WIP ОЖИДАНИЕ (ID:5485743) → Подготовка ГПЗУ (ID:5474973)
+INFO:     178.154.236.159:36750 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:57827 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:36750 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.53:41470 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.91:46397 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Елена Кроваткина: Подготовка ГПЗУ (ID:5474973) → Проверка начальника отдела (ID:5474974)
+INFO:     178.154.236.47:57632 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:57827 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.53:41470 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:57632 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:36750 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:57827 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.91:46397 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.53:41470 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:36750 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:57827 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.60:58111 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.76:63977 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.53:41470 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:57632 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.143:49188 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.124.37:30471 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.118:61466 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:39550 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.59:55063 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.143:49188 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.124.37:30471 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.79:62637 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.118:61466 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.59:55063 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.143:49188 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Анастасия Бейгель: Проверка начальника отдела (ID:5474974) → Финализация (добавление РСО,регистрация) (ID:5474975)
+INFO:     178.154.237.12:9877 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.159:35296 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.79:58883 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.127:63152 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.70:58757 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.5:43352 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.59:53114 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.124.5:48369 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:60764 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.102:14805 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.111:60764 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     51.250.53.91:48848 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.143:41917 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:58625 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Стрекалина Наталья: Входящая проверка (ID:5474955) → ЕГРН + ТОПО + права (ID:5474956)
+INFO:     84.201.183.82:58523 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     178.154.236.47:59333 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.70:59212 - "POST /gradplan_process HTTP/1.1" 200 OK
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+[MOVE] 2025-12-12 | Елена Кроваткина: Колонка 5474969 (ID:5474969) → Колонка 5474951 (ID:5474951)
+INFO:     178.154.236.143:46610 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Елена Кроваткина: Колонка 5474969 (ID:5474969) → Колонка 5474951 (ID:5474951)
+INFO:     84.201.183.70:58219 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Елена Кроваткина: Колонка 5474969 (ID:5474969) → Колонка 5474951 (ID:5474951)
+INFO:     178.154.236.143:46610 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Елена Кроваткина: Колонка 5474969 (ID:5474969) → Колонка 5474951 (ID:5474951)
+INFO:     51.250.124.37:31935 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Елена Кроваткина: Колонка 5474969 (ID:5474969) → Колонка 5474951 (ID:5474951)
+INFO:     51.250.124.37:31935 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Елена Кроваткина: Колонка 5474969 (ID:5474969) → Колонка 5474951 (ID:5474951)
+INFO:     178.154.236.47:61637 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Елена Кроваткина: Колонка 5474969 (ID:5474969) → Колонка 5474951 (ID:5474951)
+INFO:     178.154.236.95:54122 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Елена Кроваткина: Колонка 5474969 (ID:5474969) → Колонка 5474951 (ID:5474951)
+INFO:     51.250.124.37:31935 - "POST /gradplan_process HTTP/1.1" 200 OK
+[MOVE] 2025-12-12 | Елена Кроваткина: Колонка 5474969 (ID:5474969) → Колонка 5474951 (ID:5474951)
+INFO:     178.154.236.191:48893 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     84.201.183.82:60819 - "POST /gradplan_process HTTP/1.1" 200 OK
+INFO:     198.235.24.115:60646 - "GET / HTTP/1.1" 404 Not Found
+WARNING:  Invalid HTTP request received.
+WARNING:  Invalid HTTP request received.
+INFO:     139.59.5.199:44896 - "GET / HTTP/1.1" 404 Not Found
+INFO:     139.59.5.199:44898 - "GET /login HTTP/1.1" 404 Not Found
