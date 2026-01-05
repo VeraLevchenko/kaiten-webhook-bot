@@ -21,6 +21,8 @@ from pathlib import Path
 from datetime import datetime, timedelta, date
 from zoneinfo import ZoneInfo
 from collections import defaultdict
+from monthly_reports import start_monthly_reports_thread
+
 
 import urllib3
 import requests
@@ -753,6 +755,15 @@ async def startup_event():
     thread = threading.Thread(target=auto_send_daily_reports, daemon=True)
     thread.start()
     print("[STARTUP] ✅ Автоотправка отчётов запущена")
+
+    # Ежемесячные отчёты (1-й рабочий день месяца)
+    start_monthly_reports_thread(
+        load_store_func=load_store,
+        send_telegram_func=send_telegram,
+        data_file_path=DATA_FILE,
+        holidays=HOLIDAYS,
+    )
+    print("[STARTUP] ✅ Ежемесячные отчёты запущены")
 
 # ====================================================================
 # CLI
