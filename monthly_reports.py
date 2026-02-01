@@ -290,10 +290,10 @@ def _pct(part: int, total: int) -> str:
 def render_month_table(title: str, stats: dict) -> str:
     """
     Текстовый рендер формы (без строк '-----', строго подряд).
+    Проценты считаются отдельно для физ. и юр. относительно их итогов.
     """
     acc_phys = stats["accepted_total"]["phys"]
     acc_jur  = stats["accepted_total"]["jur"]
-    acc_all  = acc_phys + acc_jur
 
     def row(label, phys, jur):
         return f"{label:<34} {str(phys):>6} {str(jur):>6}"
@@ -303,23 +303,30 @@ def render_month_table(title: str, stats: dict) -> str:
     lines.append("```")
     lines.append(f"{'':<34} {'физ.':>6} {'юр.':>6}")
 
+    def pct_phys(part: int) -> str:
+        return _pct(part, acc_phys)
+
+    def pct_jur(part: int) -> str:
+        return _pct(part, acc_jur)
+
     lines.append(row("Общее количество принятых заявлений", acc_phys, acc_jur))
 
     lp = stats["accepted_by_method"][SUBM_PERSONAL]
     lines.append(row("лично в ОМС", lp["phys"], lp["jur"]))
-    lines.append(row("% от общего числа", _pct(lp["phys"] + lp["jur"], acc_all), ""))
+    lines.append(row("% от общего числа", pct_phys(lp["phys"]), pct_jur(lp["jur"])))
 
     mfc = stats["accepted_by_method"][SUBM_MFC]
     lines.append(row("через МФЦ", mfc["phys"], mfc["jur"]))
-    lines.append(row("% от общего числа", _pct(mfc["phys"] + mfc["jur"], acc_all), ""))
+    lines.append(row("% от общего числа", pct_phys(mfc["phys"]), pct_jur(mfc["jur"])))
 
     epgu = stats["accepted_by_method"][SUBM_EPGU]
     lines.append(row("через ЕПГУ", epgu["phys"], epgu["jur"]))
-    lines.append(row("% от общего числа", _pct(epgu["phys"] + epgu["jur"], acc_all), ""))
+    lines.append(row("% от общего числа", pct_phys(epgu["phys"]), pct_jur(epgu["jur"])))
 
     rpgu = stats["accepted_by_method"][SUBM_RPGU]
     lines.append(row("через РПГУ", rpgu["phys"], rpgu["jur"]))
-    lines.append(row("% от общего числа", _pct(0, acc_all), ""))
+    # РПГУ по вашей логике всегда 0
+    lines.append(row("% от общего числа", "0%", "0%"))
 
     st = stats["services_total"]
     pos = stats["positive"]
@@ -333,6 +340,7 @@ def render_month_table(title: str, stats: dict) -> str:
 
     lines.append("```")
     return "\n".join(lines)
+
 
 
 # ====== Excel: 3 вкладки ======
@@ -355,30 +363,34 @@ def _write_form_sheet(ws, title: str, stats: dict):
 
     acc_phys = stats["accepted_total"]["phys"]
     acc_jur = stats["accepted_total"]["jur"]
-    acc_all = acc_phys + acc_jur
 
-    def pct(part):
-        if acc_all <= 0:
+    def pct_phys(part: int) -> str:
+        if acc_phys <= 0:
             return "0%"
-        return f"{round((part / acc_all) * 100):d}%"
+        return f"{round((part / acc_phys) * 100):d}%"
+
+    def pct_jur(part: int) -> str:
+        if acc_jur <= 0:
+            return "0%"
+        return f"{round((part / acc_jur) * 100):d}%"
 
     ws.append(["Общее количество принятых заявлений", acc_phys, acc_jur])
 
     lp = stats["accepted_by_method"][SUBM_PERSONAL]
     ws.append(["лично в ОМС", lp["phys"], lp["jur"]])
-    ws.append(["% от общего числа", pct(lp["phys"] + lp["jur"]), ""])
+    ws.append(["% от общего числа", pct_phys(lp["phys"]), pct_jur(lp["jur"])])
 
     mfc = stats["accepted_by_method"][SUBM_MFC]
     ws.append(["через МФЦ", mfc["phys"], mfc["jur"]])
-    ws.append(["% от общего числа", pct(mfc["phys"] + mfc["jur"]), ""])
+    ws.append(["% от общего числа", pct_phys(mfc["phys"]), pct_jur(mfc["jur"])])
 
     epgu = stats["accepted_by_method"][SUBM_EPGU]
     ws.append(["через ЕПГУ", epgu["phys"], epgu["jur"]])
-    ws.append(["% от общего числа", pct(epgu["phys"] + epgu["jur"]), ""])
+    ws.append(["% от общего числа", pct_phys(epgu["phys"]), pct_jur(epgu["jur"])])
 
     rpgu = stats["accepted_by_method"][SUBM_RPGU]
     ws.append(["через РПГУ", rpgu["phys"], rpgu["jur"]])
-    ws.append(["% от общего числа", "0%", ""])
+    ws.append(["% от общего числа", "0%", "0%"])
 
     st = stats["services_total"]
     pos = stats["positive"]
@@ -391,6 +403,7 @@ def _write_form_sheet(ws, title: str, stats: dict):
     ws.append(["ОТКАЗЫ", ref["phys"], ref["jur"]])
 
     _autosize_columns(ws)
+
 
 
 def build_month_excel_report(store: dict, month_start: date, month_end: date, aggregates_path: Path) -> tuple[str, bytes]:

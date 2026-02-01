@@ -5,5 +5,4 @@ __pycache__/
 moves_by_date.json
 monthly_aggregates.json
 monthly_report_state.json
-
 output.log
